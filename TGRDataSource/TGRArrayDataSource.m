@@ -32,7 +32,7 @@ cellReuseIdentifier:(NSString *)reuseIdentifier
                            configureCellBlock:configureCellBlock];
     
     if (self) {
-        _items = [items copy];
+        _items = [items mutableCopy];
     }
     
     return self;
@@ -46,7 +46,7 @@ reuseIdentifierBlock:(TGRDataSourceReuseIdentifierBlock)reuseIdentifierBlock
                             configureCellBlock:configureCellBlock];
     
     if (self) {
-        _items = [items copy];
+        _items = [items mutableCopy];
     }
     
     return self;

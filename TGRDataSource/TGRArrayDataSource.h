@@ -30,7 +30,7 @@
 /**
  The items managed by this data source.
  */
-@property (copy, nonatomic, readonly) NSArray *items;
+@property (copy, nonatomic) NSMutableArray *items;
 
 /**
  Initializes the data source.
