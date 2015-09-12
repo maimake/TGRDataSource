@@ -87,7 +87,7 @@
                                                             forIndexPath:indexPath];
     
     if (self.configureCellBlock) {
-        self.configureCellBlock(cell, item);
+        self.configureCellBlock(cell, item, indexPath);
     }
     
     return cell;
@@ -116,7 +116,7 @@
                                                                            forIndexPath:indexPath];
     
     if (self.configureCellBlock) {
-        self.configureCellBlock(cell, item);
+        self.configureCellBlock(cell, item, indexPath);
     }
     
     return cell;
