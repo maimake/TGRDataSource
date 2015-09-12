@@ -51,6 +51,7 @@
     self = [super init];
     if (self) {
         self.reuseIdentifierBlock = reuseIdentifierBlock;
+        self.configureCellBlock = configureCellBlock;
     }
     
     return self;
