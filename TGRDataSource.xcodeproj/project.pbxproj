@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C88677E1C51D30F002AE97F /* TGRDicDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C88677D1C51D30F002AE97F /* TGRDicDataSource.m */; };
 		990C566019017A3400E382F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990C565F19017A3400E382F1 /* Foundation.framework */; };
 		990C566E19017A3400E382F1 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990C566D19017A3400E382F1 /* XCTest.framework */; };
 		990C566F19017A3400E382F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 990C565F19017A3400E382F1 /* Foundation.framework */; };
@@ -45,6 +46,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2C88677C1C51D30F002AE97F /* TGRDicDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRDicDataSource.h; sourceTree = "<group>"; };
+		2C88677D1C51D30F002AE97F /* TGRDicDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGRDicDataSource.m; sourceTree = "<group>"; };
 		990C565C19017A3400E382F1 /* libTGRDataSource.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTGRDataSource.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		990C565F19017A3400E382F1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		990C566319017A3400E382F1 /* TGRDataSource-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TGRDataSource-Prefix.pch"; sourceTree = "<group>"; };
@@ -126,6 +129,8 @@
 				990C566219017A3400E382F1 /* Supporting Files */,
 				990C568819017DAD00E382F1 /* NSObject+Abstract.h */,
 				990C568919017DAD00E382F1 /* NSObject+Abstract.m */,
+				2C88677C1C51D30F002AE97F /* TGRDicDataSource.h */,
+				2C88677D1C51D30F002AE97F /* TGRDicDataSource.m */,
 				990C568519017CB400E382F1 /* TGRDataSource.h */,
 				990C568619017CB400E382F1 /* TGRDataSource.m */,
 				990C568B19017EBA00E382F1 /* TGRArrayDataSource.h */,
@@ -248,6 +253,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C88677E1C51D30F002AE97F /* TGRDicDataSource.m in Sources */,
 				990C568719017CB400E382F1 /* TGRDataSource.m in Sources */,
 				993DB7EA1901B86300653166 /* TGRFetchedResultsTableViewController.m in Sources */,
 				993DB7E71901990000653166 /* TGRFetchedResultsDataSource.m in Sources */,
